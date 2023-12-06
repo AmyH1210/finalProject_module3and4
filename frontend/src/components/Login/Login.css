@@ -1,0 +1,75 @@
+/* LogIn.css */
+
+.logInCard {
+    background-color: rgb(221, 216, 217);
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid rgb(246, 244, 245);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    height: auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .title {
+    display:flex;
+  }
+  
+  .inputBoxes {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-color: white;
+  }
+
+  
+  
+  button {
+    
+    margin-top: 15px;
+   
+    width: 100%;
+    padding: 5px 50px; 
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 15px auto;
+    height: 30px;
+    border-radius: 5px;
+    min-width: 100px;
+    display: flex;
+    justify-content: center; /* Center text horizontally */
+    align-items: center; /* Center text vertically */
+    
+  }
+  
+  /* Style for the Sign Up button */
+  button[type='submit'] {
+    background-color: #aa4caf;
+    color: #fff;
+    border: none;
+  }
+  
+  .login-link {
+    text-decoration: none;
+    color: #aa4caf; /* Add this if you want to set the text color for the Link */
+    padding-right: 45px;
+  }
+  
+  
